@@ -225,8 +225,8 @@ h2 {
 
 h3 {
     font-family: "Gotham Pro", "Arial", "Verdana", sans-serif;
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 23px;
+    line-height: 24px;
     font-weight: 500;
     color: #131313;
 }
@@ -241,8 +241,8 @@ h4 {
 
 p {
     font-family: "Gotham Pro", "Arial", "Verdana", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22px;
     font-weight: normal;
     color: #6d7070;
 }
@@ -250,8 +250,8 @@ p {
 li {
     list-style: none;
     font-family: "Gotham Pro", "Arial", "Verdana", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22px;
     font-weight: normal;
     color: #6d7070;
 }
@@ -259,8 +259,8 @@ li {
 a {
     text-decoration: none;
     font-family: "Gotham Pro", "Arial", "Verdana", sans-serif;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 15px;
     font-weight: normal;
     color: #6d7070;
 }
@@ -341,7 +341,7 @@ textarea:focus {
     vertical-align: top;
     cursor: pointer;
     min-width: 160px;
-    padding: 7px 2%;
+    padding: 5px 2%;
     border-width: 1px;
     text-align: center;
     background: transparent;
@@ -350,8 +350,8 @@ textarea:focus {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 15px;
+    line-height: 20px;
     font-weight: normal;
     color: #6d7070;
     -webkit-transition-property: all;
@@ -623,7 +623,7 @@ header {
 .logo_wrapp {
     display: inline-block;
     vertical-align: top;
-    max-width: 170px;
+    max-width: 150px;
 }
 
 .logo {
@@ -646,8 +646,8 @@ header {
     display: inline-block;
     vertical-align: top;
     margin: 7px 0;
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 20px;
     color: #6d7070;
     -webkit-transition-property: all;
     -webkit-transition-duration: .3s;
@@ -700,23 +700,23 @@ header {
 
 .main-nav {
     text-align: right;
-    margin: 0 -18px;
+    margin: 0 -11px;
     outline: 1px solid red;
 }
 
 .main-nav li {
     display: inline-block;
     vertical-align: top;
-    padding: 0 14px;
+    padding: 0 11px;
 }
 
 .main-nav li a {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    padding: 22px 2px;
-    font-size: 16px;
-    line-height: 16px;
+    padding: 17px 2px;
+    font-size: 15px;
+    line-height: 15px
     color: #7499a9;
     -webkit-transition-property: all;
     -webkit-transition-duration: .3s;
@@ -804,7 +804,7 @@ header {
 /*-- Section 1 --*/
 
 .promo-sect {
-    padding: 59px 0 37px 0;
+    padding: 50px 0 37px 0;
     position: relative;
     z-index: 1;
     background-image: url(img/promo_bg.jpg);
@@ -826,8 +826,8 @@ header {
 }
 
 .promo-desc .h1-desc {
-    font-size: 44px;
-    line-height: 44px;
+    font-size: 40px;
+    line-height: 42px;
     font-weight: 500;
     color: #ffffff;
 }
@@ -836,7 +836,7 @@ h1 {
     display: inline-block;
     letter-spacing: 15px;
     font-family: "Gotham Pro", "Arial", "Verdana", sans-serif;
-    font-size: 118px;
+    font-size: 106px;
     line-height: 118px;
     font-weight: 500;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZFRTAwOyIgLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRUUwMDsiIC8+PHN0b3Agb2Zmc2V0PSI2NSUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3RUY2MjI7IiAvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzdERjYyMTsiIC8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgZmlsbD0idXJsKCNncmFkaWVudCkiIGhlaWdodD0iMTAwJSIgd2lkdGg9IjEwMCUiIC8+PC9zdmc+);
@@ -865,7 +865,7 @@ h1 {
     display: inline-block;
     vertical-align: top;
     min-width: 245px;
-    padding: 22px 2%;
+    padding: 17px 2%;
     cursor: pointer;
     border-width: 1px;
     text-align: center;
@@ -875,7 +875,7 @@ h1 {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: normal;
     color: #322c2a;
@@ -957,7 +957,7 @@ h1 {
 
 .thumbnails-1 {
     max-width: 1120px;
-    margin: 35px auto 22px auto;
+    margin: 27px auto 13px auto;
 }
 
 .thumb-1 {
@@ -1003,7 +1003,7 @@ h1 {
 /*-- Section 3 --*/
 
 .sect-3 {
-    padding: 91px 0;
+    padding: 60px 0;
 }
 
 .thumbnails-2_wrapp {
@@ -1021,7 +1021,7 @@ h1 {
     display: inline-table;
     vertical-align: top;
     width: 50%;
-    padding: 36px 17px;
+    padding: 20px 17px;
 }
 
 .thumb-2 .col-1 {
@@ -1058,9 +1058,9 @@ h1 {
 }
 
 .thumb-2 h3 {
-    padding: 3px 0 12px 0;
-    font-size: 26px;
-    line-height: 30px;
+    padding: 3px 0 9px 0;
+    font-size: 22px;
+    line-height: 27px;
     font-weight: normal;
     color: #070707;
 }
@@ -1140,8 +1140,8 @@ h1 {
 }
 
 .shape p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 22px;
     font-weight: normal;
     color: #6e737c;
 }
@@ -1168,7 +1168,7 @@ h1 {
     vertical-align: top;
     width: 50%;
     padding: 0 16% 0 0;
-    margin: 59px 0;
+    margin: 50px 0;
 }
 
 .thumbnails-3 .thumb-3:nth-child(even) {
@@ -1185,8 +1185,8 @@ h1 {
 
 .thumb-3 h3 {
     padding-bottom: 8px;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 23px;
+    line-height: 27px;
     font-weight: normal;
     color: #070707;
 }
@@ -1207,7 +1207,7 @@ h1 {
 
 .thumb-3 p {
     padding: 11px 0;
-    line-height: 23px;
+    line-height: 22px;
 }
 
 .thumbnails-3 .center_image {
@@ -1353,6 +1353,10 @@ h1 {
 
 /*-- Section 6 --*/
 
+.sect-6 h2 {
+    padding-top: 50px;
+}
+
 .grey-bg {
     background: #fbfbf9;
 }
@@ -1411,7 +1415,7 @@ h1 {
 }
 
 .article_1_6 {
-    padding: 85px 0 78px 0;
+    padding: 65px 0 45px 0;
 }
 
 .article_1_6 .right {
@@ -1452,7 +1456,7 @@ h1 {
 
 .shape_2 p {
     padding: 0 !important;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     color: #6e737c !important;
 }
@@ -1486,7 +1490,7 @@ h1 {
 }
 
 .thumb_4 h4 {
-    padding: 25px 0 9px 0;
+    padding: 14px 0 5px 0;
 }
 
 .thumb_4 p {
@@ -1510,7 +1514,7 @@ ol li:before {
     width: 13px;
     height: 13px;
     position: absolute;
-    top: 10px;
+    top: 9px;
     left: 0;
     background-image: url(img/li_mark.png);
     background-size: 100%;
@@ -1521,7 +1525,7 @@ ol li:before {
 .thumb_5 {
     display: table;
     width: 100%;
-    margin: 21px 0;
+    margin: 10px 0;
 }
 
 .thumb_5:last-child {
@@ -1776,14 +1780,14 @@ ol li:before {
 }
 
 .shape_3 p {
-    padding: 11px 0 0 0;
-    font-size: 22px;
-    line-height: 24px;
+    padding: 7px 0 0 0;
+    font-size: 15px;
+    line-height: 22px;
     color: #6e737c;
 }
 
 .form_wrapp {
-    margin: 39px 0 69px 0;
+    margin: 39px 0;
 }
 
 .inputs_wrapp {
@@ -1864,8 +1868,8 @@ input:focus {
 label {
     padding: 0 0 0 36px;
     cursor: pointer;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22px;
     color: #131313;
     position: relative;
 }
@@ -2141,8 +2145,8 @@ label a:hover {
 
 .title_shape h3 {
     padding: 7px 0;
-    font-size: 26px;
-    line-height: 33px;
+/*    font-size: 26px;
+    line-height: 33px;*/
     color: #131313;
 }
 
@@ -2438,7 +2442,13 @@ a.tel-link_2 {
 .franch {
     display: inline-block;
     vertical-align: top;
+    max-width: 205px;
     margin: 8px 0;
+}
+
+.franch img {
+    display: block;
+    max-width: 100%;
 }
 
 .footer .franch:link,
