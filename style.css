@@ -2340,6 +2340,7 @@ label a:hover {
 .logo_2 {
     display: inline-block;
     vertical-align: top;
+    max-width: 150px;
     margin: 10px 0 25px 0;
     border-bottom: none !important;
 }
