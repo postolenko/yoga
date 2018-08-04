@@ -28,9 +28,7 @@ $(document).ready(function() {
 
 	$(".svg-text p").text("");
 
-	strLength = $(".text_array").find("div").length;
-
-	getStr();		
+	getStr();
 
 });
 
@@ -70,9 +68,7 @@ function getStr() {
 
 function getCircles() {
 
-	var circlesInterval =  setInterval(function() {		
-
-		console.log(indexCircle);
+	var circlesInterval =  setInterval(function() {
 
 		$(".jelly_wrapp .circle_num:eq("+ indexCircle +")").addClass("active");
 
