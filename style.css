@@ -1442,6 +1442,7 @@ h1 {
     max-width: 300px;
     position: relative;
     top: 120px;
+    left: 9px;
 }
 
 .svg-text p {
