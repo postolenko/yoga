@@ -2552,11 +2552,133 @@ p.svg-text_3 {
 
 .article_1_5 {
     padding-top: 20px;
-    padding-bottom: 0;
+    padding-bottom: 41px;
 }
 
 .article_1_5 .right {
     padding-top: 2px;
+}
+
+.blue-star_wrapp {
+    max-width: 412px;
+    height: 422px;
+    position: relative;
+    left: 12%;
+}
+
+.blue-star_wrapp:before {
+    content: "";
+    width: 273px;
+    height: 291px;
+    z-index: 4;
+    margin: auto;
+    position: absolute;
+    top: -26px;
+    left: 5px;
+    right: 0;
+    bottom: 0;
+    background-image: url(img/yoga_3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.blue-star {
+    display: block;
+    width: 416px;
+    height: 416px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    animation: star_rotate 20s linear infinite;
+    -webkit-animation: star_rotate 20s linear infinite;
+}
+
+.blue-star_wrapp:after {
+    content: "";
+    width: 339px;
+    height: 339px;
+    position: absolute;
+    top: -38px;
+    left: -40px;
+    z-index: 2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 143px 143px 162px 0px rgba(0,0,0,.31);
+    -moz-box-shadow: 143px 143px 162px 0px rgba(0,0,0,.31);
+    box-shadow: 143px 143px 162px 0px rgba(0,0,0,.31);
+}
+
+@keyframes star_rotate {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes star_rotate {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(360deg);}
+}
+
+.eye {
+    width: 68px;
+    height: auto;
+    position: absolute;
+    top: 282px;
+    left: 365px;
+    opacity: .35;
+}
+
+.star_2 {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    top: 36px;
+    left: -25px;
+    animation: star_rotate_2 6s linear infinite;
+    -webkit-animation: star_rotate_2 6s linear infinite;
+}
+
+@keyframes star_rotate_2 {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes star_rotate_2 {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(360deg);}
+}
+
+.star_time {
+    display: block;
+    max-width: 210px;
+    z-index: 5;
+    position: absolute;
+    top: 129px;
+    left: 24%;
+}
+
+.star_descript {
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    top: 221px;
+    left: 0;
+}
+
+.star_descript p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+}
+
+.star_descript p span {
+    display: inline-block;
+    padding-bottom: 9px;
+    font-size: 30px;
+    line-height: 32px;
 }
 
 .article_1_6 {
@@ -2564,7 +2686,107 @@ p.svg-text_3 {
 }
 
 .article_1_6 .right {
-    padding-top: 61px !important;
+    padding-top: 54px !important;
+}
+
+.ten_wrapp {
+    max-width: 520px;
+}
+
+.ten_wrapp h3 {
+    text-align: center;
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #122b3a;
+}
+
+.ten_wrapp h2 {
+    padding: 0;
+    opacity: .4;
+    font-size: 73px;
+    line-height: 73px;
+    font-weight: bold;
+    color: #070707;
+}
+
+.ten_two_cols {
+    padding: 5px 0 0 0;
+}
+
+.ten_two_cols > .col-1 {
+    width: 270px;
+    float: left;
+    padding: 17px 0 0 0;
+}
+
+.ten_two_cols > .col-2 {
+    float: right;
+    text-align: right;
+    width: calc(100% - 270px);
+    padding: 0;
+}
+
+.ten_two_cols p {
+    padding: 11px 0;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #070707;
+}
+
+.ten_two_cols p.p-2 {
+    padding-top: 4px;
+    opacity: .4;
+    font-size: 47px;
+    line-height: 47px;
+    font-weight: bold;
+    color: #070707;
+}
+
+.ten-num {
+    width: 260px;
+    padding: 9px 0 0 0;
+}
+
+.ten-num > .col-1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 76px;
+    padding: 0 0 0 16px;
+}
+
+.ten-num > .col-2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 184px;
+    text-align: left;
+}
+
+.ten_cirle {
+    width: 160px;
+    height: 160px;
+    animation: ten_rotate 6s linear infinite;
+    -webkit-animation: ten_rotate 6s linear infinite;
+}
+
+@keyframes ten_rotate {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes ten_rotate {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(360deg);}
+}
+
+.arrow_ten {
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    position: relative;
+    top: 30px;
+    left: 11%;
 }
 
 .article_1_7 {
