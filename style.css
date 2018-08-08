@@ -2718,7 +2718,7 @@ p.svg-text_3 {
 }
 
 .ten_two_cols > .col-1 {
-    width: 270px;
+    width: 280px;
     float: left;
     padding: 17px 0 0 0;
 }
@@ -2726,7 +2726,7 @@ p.svg-text_3 {
 .ten_two_cols > .col-2 {
     float: right;
     text-align: right;
-    width: calc(100% - 270px);
+    width: calc(100% - 280px);
     padding: 0;
 }
 
@@ -2755,32 +2755,61 @@ p.svg-text_3 {
 .ten-num > .col-1 {
     display: inline-block;
     vertical-align: top;
-    width: 76px;
+    width: 85px;
     padding: 0 0 0 16px;
 }
 
 .ten-num > .col-2 {
     display: inline-block;
     vertical-align: top;
-    width: 184px;
+    width: 175px;
     text-align: left;
 }
 
-.ten_cirle {
+.ten_circle {
+    position: relative;
     width: 160px;
     height: 160px;
-    animation: ten_rotate 6s linear infinite;
-    -webkit-animation: ten_rotate 6s linear infinite;
 }
 
-@keyframes ten_rotate {
+.ten_cirle_1 {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: ten_rotate_1 4s linear infinite;
+    -webkit-animation: ten_rotate_1 4s linear infinite;
+}
+
+@keyframes ten_rotate_1 {
     0%   {transform: rotate(0);}
     100%   {transform: rotate(360deg);}
 }
 
-@-webkit-keyframes ten_rotate {
+@-webkit-keyframes ten_rotate_1 {
     0%   {transform: rotate(0);}
     100%   {transform: rotate(360deg);}
+}
+
+.ten_cirle_2 {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: ten_rotate_2 5s linear infinite;
+    -webkit-animation: ten_rotate_2 5s linear infinite;
+}
+
+@keyframes ten_rotate_2 {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(-360deg);}
+}
+
+@-webkit-keyframes ten_rotate_2 {
+    0%   {transform: rotate(0);}
+    100%   {transform: rotate(-360deg);}
 }
 
 .arrow_ten {
@@ -3524,6 +3553,25 @@ label a:hover {
 .article_5 .right {
     width: 36%;
     padding: 37px 0 30px 0;
+}
+
+.graphic_wrapp {
+    position: relative;
+}
+
+.graphic {
+    display: block;
+    width: 100%;
+    max-width: 622px;
+}
+
+.eye_2 {
+    display: block;
+    width: 85px;
+    height: 83px;
+    position: absolute;
+    top: 284px;
+    left: 38.5%;
 }
 
 .title-2 {
