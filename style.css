@@ -1447,13 +1447,16 @@ h1 {
     left: 294px;
 }
 
-/*.jelly_wrapp .obj_7 {
-    width: 32px;
-    height: 31px;
+.jelly_wrapp .obj_7 {
+    width: 22px;
+    height: 22px;
     position: absolute;
-    top: 188px;
-    outline: 1px solid red;
-}*/
+    top: 54px;
+    left: 23%;
+    -webkit-transform: rotate(-127deg);
+    -moz-transform: rotate(-127deg);
+    transform: rotate(-127deg);
+}
 
 .svg-text_wrapp {
     width: 100%;
