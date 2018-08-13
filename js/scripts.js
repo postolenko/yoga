@@ -15,12 +15,19 @@ var indexCircle = 0;
 
 $(window).load(function() {
 
+	getAnimation();
 
 });
 
 $(window).resize(function() {
 
-    
+    getAnimation();
+
+});
+
+$(document).scroll(function() {
+
+	getAnimation();
 
 });
 
@@ -28,7 +35,7 @@ $(document).ready(function() {
 
 	$(".svg-text p").text("");
 
-	getStr();
+	getStr();	
 
 });
 
@@ -95,5 +102,20 @@ function getCircles() {
 		}		
 
 	}, 1200);
+
+}
+
+
+function getAnimation() {
+
+  $(".animate").each(function() {
+
+    if( $(this).offset().top <= $(document).scrollTop() + $(window).height() ) {
+
+      $(this).addClass("active");
+
+    }
+
+  });  
 
 }
