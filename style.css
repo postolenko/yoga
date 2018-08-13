@@ -75,6 +75,7 @@ body {
     width: 100%;
     position: relative;
     min-height: 100vh;
+    overflow: hidden;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
