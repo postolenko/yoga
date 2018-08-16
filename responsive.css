@@ -384,7 +384,7 @@
 
 	.obj_1 {
 		position: relative;
-		top: -66px;
+		top: -40px;
 		left: -62px;
 	}
 
@@ -978,93 +978,3 @@
 	
 }
 
-@media only screen and (max-width: 400px) {
-
-	h1 {
-	    letter-spacing: 0px;
-	    font-size: 51px;
-	    line-height: 62px;
-	}
-
-	/*-- Section 1 --*/
-
-	.promo-desc .h1-desc {
-	    font-size: 18px;
-	    line-height: 20px;
-	}
-
-	/*-- /Section 1 --*/
-
-	/*-- Section 3 --*/
-
-	h2 {
-	    font-size: 23px;
-	    line-height: 27px;
-	}
-
-	/*-- /Section 3 --*/
-
-	/*-- Section 6 --*/
-
-	.obj-2_wrapp {
-	    height: 210px;
-	}
-
-	.obj_2 {
-		top: -71px;
-		left: -29%;
-	}
-
-	.obj_2 .inner .strings_wrapp {
-		left: 0;
-		-webkit-transform: scale(.65);
-		-moz-transform: scale(.65);
-		transform: scale(.65);
-	}
-
-	/*-- /Section 6 --*/
-
-}
-
-
-@media only screen and (max-width: 350px) {
-
-	/*-- Section 6 --*/
-
-	.obj-2_wrapp {
-	    height: 182px;
-	}
-
-	.obj_2 {
-		top: -86px;
-		left: -38%;
-	}
-
-	.obj_2 .inner .strings_wrapp {
-		-webkit-transform: scale(.55);
-		-moz-transform: scale(.55);
-		transform: scale(.55);
-	}
-
-	/*-- /Section 6 --*/
-
-}
-
-
-@media only screen and (max-width: 320px) {
-
-	
-
-}
-
-@media only screen and (min-width: 769px) {
-
-	.wrapper {
-		padding-top: 0 !important;
-	}
-
-	.main-nav_wrapp {
-		display: block !important;
-	}
-
-}
