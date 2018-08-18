@@ -627,6 +627,17 @@ textarea:focus {
     background-position: center;
 }
 
+.clock {
+    display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    background-image: url(img/clock.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 /*-- /Icons --*/
 
 /*-------------------------------------------*/
@@ -2901,6 +2912,12 @@ p.svg-text_3 {
     vertical-align: top;
     width: 175px;
     text-align: left;
+}
+
+.one {
+    display: block;
+    /*height: 125px;*/
+    width: auto;
 }
 
 .ten_circle {
