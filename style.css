@@ -4427,8 +4427,8 @@ a.tel-link_2 {
 .ie h1 {
     background-image: none;
     color: #ffee00;
-    -webkit-background-clip: none;
-    -webkit-text-fill-color: none;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: none !important;
 }
 
 .ie .thumb-1 .icon-box img {
