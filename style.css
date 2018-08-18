@@ -269,10 +269,10 @@ ol li:before {
     display: inline-block;
     vertical-align: top;
     content: "";
-    width: 13px;
-    height: 14px;
+    width: 12px;
+    height: 16px;
     position: absolute;
-    top: 9px;
+    top: 7px;
     left: 0;
     background-image: url(img/li_mark.svg);
     background-size: 100%;
