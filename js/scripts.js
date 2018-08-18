@@ -152,6 +152,10 @@ $(document).ready(function() {
             'scrollTop': visibleBlock.offset().top - 50
         }, 500);
 
+        var navigationWrapp = $(this).closest(".main-nav_wrapp");
+        $(".respmenubtn").removeClass("active");
+        navigationWrapp.fadeOut(300);
+
     });
 
     // ----------------
