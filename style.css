@@ -4024,8 +4024,36 @@ label a:hover {
     position: relative;
 }
 
+.slider_2 {
+    /*max-width: 100%;*/
+}
+
+.slider_2 .owl-dots {
+    margin: 0 -5px;
+}
+
+.slider_2 .owl-dots button.owl-dot {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 5px;
+    width: 70px;
+    height: 6px;
+    cursor: pointer;
+    font-size: 0;
+    line-height: 0;
+    background-color: #e1e1e1;
+    border: 1px solid transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.slider_2 .owl-dots button.active {
+    background-color: #009ee2;
+}
+
 .article_4 {
-    margin: 20px 0;
+    /*margin: 20px 0;*/
 }
 
 .article_4 .left {
@@ -4061,6 +4089,11 @@ label a:hover {
     vertical-align: top;
     margin: 0 0 3px 0;
     text-align: left;
+}
+
+.director .col-2 .logo_slide {
+    width: auto;
+    max-width: 100%;
 }
 
 .director .col-2 .galladance {

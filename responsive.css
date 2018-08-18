@@ -94,13 +94,13 @@
 
 	/*-- Section 10 --*/
 
-	.slick-dots {
+	.owl-dots {
 	    margin: 20px 0 0 0;
 	    top: 0;
-	    text-align: center;
+	    /*text-align: center;*/
 	}
 
-	.slick-dots li button {
+	.owl-dots button {
 	    width: 50px;
 	}
 
@@ -729,6 +729,10 @@
 
 	/*-- Section 10 --*/
 
+	.slider_2_wrapp {
+		width: 186%;
+	}
+
 	.slider_2 .slide {
 		padding: 0 4px;
 	}
@@ -974,10 +978,10 @@
 
 	/*-- Section 10 --*/
 
-	.slider_2 {
-		width: 186%;	
+/*	.slider_2 {
+		width: 186%;
 	}
-
+*/
 	/*-- /Section 10 --*/
 
 	/*-- Footer --*/

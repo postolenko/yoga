@@ -16,26 +16,54 @@ $(document).ready(function() {
 
     setSliders();
 
-    $(".slider_2").not(".slick-initialized").slick({
+    // $(".slider_2").not(".slick-initialized").slick({
+    //     dots: true,
+    //     arrows: false,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     speed: 600,
+    //     fade: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     responsive: [
+    //         {
+    //           breakpoint: 600,
+    //           settings: {
+    //             dots: false,
+    //             fade: false,
+    //             slidesToShow: 2,
+    //             slidesToScroll: 1
+    //           }
+    //         }
+    //     ]
+    // });
+
+    $(".owl-carousel.slider_2").owlCarousel({
+        loop: true,
+        touchDrag: true,
+        mouseDrag: true,
         dots: true,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        speed: 600,
-        fade: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [
-            {
-              breakpoint: 600,
-              settings: {
+        nav: false,
+        margin: 10,
+        animateOut: 'fadeOut',
+        // autoplaySpeed: 1000,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:2,
                 dots: false,
-                fade: false,
-                slidesToShow: 2,
-                slidesToScroll: 1
-              }
+                nav: false
+            },
+            768:{
+                items:1,
+            },
+            992:{
+                items:1
+            },
+            1200:{
+                items:1
             }
-        ]
+        }
     });
     
 });
