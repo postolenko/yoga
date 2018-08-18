@@ -4429,6 +4429,10 @@ a.tel-link_2 {
     color: #ffee00;
 }
 
+.ie .thumb-1 .icon-box img {
+    width: 50px;
+}
+
 .ie .thumb-2 .icon-box img {
     width: 50px;
 }
