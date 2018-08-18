@@ -13,18 +13,7 @@ $(window).resize(function(){
 
 $(document).ready(function() {
 
-    setSliders();	
-
-	// $(".gallery-slider").not(".slick-initialized").slick({
- //        dots: false,
- //        arrows: true,
- //        autoplay: true,
- //        autoplaySpeed: 5000,
- //        speed: 1200,
- //        slidesToShow: 1,
- //        slidesToScroll: 1,
- //        fade: true
- //    });
+    setSliders();
 
     $(".slider_2").not(".slick-initialized").slick({
         dots: true,
@@ -32,6 +21,7 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 5000,
         speed: 1200,
+        fade: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [
@@ -39,6 +29,7 @@ $(document).ready(function() {
               breakpoint: 600,
               settings: {
                 dots: false,
+                fade: false,
                 slidesToShow: 2,
                 slidesToScroll: 1
               }
