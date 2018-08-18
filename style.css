@@ -4761,7 +4761,7 @@ a.tel-link_2 {
 }
 
 .politics_popup {
-    padding: 35px 3% 20px 3%;
+    padding: 35px 7% 20px 7% !important;
 }
 
 .politics_popup ol {
