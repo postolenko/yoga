@@ -663,6 +663,10 @@
 		left: -8%;
 	}
 
+	.circle:before {
+		animation: none;
+	}
+
 	.animate_txt {
 		animation: none;
 	}
