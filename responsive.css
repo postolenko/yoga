@@ -551,7 +551,11 @@
 	}
 
 	.main-nav li a.active {
-		color: #ffdd2d;
+		color: #e30613;
+	}
+
+	.main-nav li a:hover {
+		color: #e30613;;
 	}
 
 	.main-nav li a:after {
@@ -743,6 +747,10 @@
 
 	.popup_form .yellow-pill {
 	    padding: 13px 2%;
+	}
+
+	.succes_content {
+	    margin: 4px 0 54px 0;
 	}
 
 	/*-- /Popup --*/
@@ -952,6 +960,15 @@
 
 	.popup .checkbox {
 	    margin: 1px auto;
+	}
+
+	.succes_content img {
+	    max-width: 70px;
+	}
+
+	.popup .succes_content h3 {
+	    font-size: 28px;
+	    line-height: 32px;
 	}
 
 	/*-- /Popup --*/
