@@ -2916,8 +2916,8 @@ p.svg-text_3 {
 
 .one {
     display: block;
-    /*height: 125px;*/
-    width: auto;
+    height: 165px;
+    width: 45px;
 }
 
 .ten_circle {
@@ -3163,6 +3163,21 @@ p.svg-text_3 {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.marker .m_c {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: green;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .marker:before {
