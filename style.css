@@ -3133,6 +3133,10 @@ p.svg-text_3 {
     color: #070707;
 }
 
+.thumb_5 .br {
+    display: none;
+}
+
 .red {
     color: #e30613;
 }

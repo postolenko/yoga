@@ -947,6 +947,10 @@
 	    zoom: .9;
 	}
 
+	.thumb_5 .br {
+	    display: block;
+	}
+
 	/*-- /Section 6 --*/
 
 	/*-- Section 7 --*/
