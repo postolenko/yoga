@@ -4422,6 +4422,24 @@ a.tel-link_2 {
 
 /*-- /Footer --*/
 
+/*-- IE --*/
+
+.ie h1 {
+    background-image: none;
+    color: #ffee00;
+}
+
+.ie .thumb-2 .icon-box img {
+    width: 50px;
+}
+
+.ie .thumb_5 .icon-box img {
+    width: 40px;
+}
+
+
+/*-- /IE --*/
+
 /*-- Animation --*/
 
 .leftSlice {
