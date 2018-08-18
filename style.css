@@ -4437,6 +4437,10 @@ a.tel-link_2 {
     width: 40px;
 }
 
+.ie .title_num {
+    color: #009cdc;
+    background: none;
+}
 
 /*-- /IE --*/
 
