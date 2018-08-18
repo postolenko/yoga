@@ -151,11 +151,13 @@
 
 	.article_1 .left {
 	    width: 100%;
+	    padding: 0;
 	    float: none;
 	}
 
 	.article_1 .right {
 	    width: 100%;
+	    padding: 0;
 	    float: none;
 	}
 
@@ -210,7 +212,6 @@
 	}
 
 	.ten_wrapp {
-	    width: 520px;
 	    margin: 0 auto;
 	}
 
@@ -731,6 +732,23 @@
 
 }
 
+@media only screen and (max-width: 650px) {
+
+	/*-- Section 6 --*/
+
+	.circles_wrapp {
+	    left: -3%;
+	}
+
+	.obj-3 {
+		position: relative;
+		top: -20px;
+	}
+
+	/*-- /Section 6 --*/
+
+}
+
 @media only screen and (max-width: 600px) {
 
 	h1 {
@@ -775,6 +793,11 @@
 	    height: 65px;
 	}
 
+	.shape_3:before {
+	    width: 130px;
+	    height: 69px;
+	}
+
 	.thumb-2 h3 {
 	    font-size: 20px;
 	    line-height: 25px;
@@ -810,11 +833,76 @@
 		transform: scale(.8);
 	}
 
+	.circles_wrapp {
+	    left: 0;
+	    zoom: .8;
+	}
+
+	.obj-3 {
+		position: relative;
+		top: -20px;
+	}
+
+/*	.center_circle {
+	    width: 120px;
+	    height: 120px;
+	    margin-top: -60px;
+	    margin-left: -60px;
+	}
+
+	.hand_white {
+	    width: 30px;
+	    height: 42px;
+	}
+
+	.c-line {
+		display: none;
+	}
+
+	.center_circle {
+		width: 80px;
+		height: 80px;
+		margin-top: -40px;
+		margin-left: -40px;
+	    border: 2px solid #ffffff;
+	}
+
+	.circle_el_1,
+	.circle_el_2,
+	.circle_el_3,
+	.stroke_circle {
+	    width: 100px;
+	    height: 100px;
+	    margin-top: -50px;
+	    margin-left: -50px;
+	}
+
+	.c_th_3 {
+	    top: 192px;
+	    left: 357px;
+	}
+
+	.c_th_9 {
+	    top: 195px;
+	    left: 104px;
+	}*/
+
+	.article_1_6 .right {
+	    padding-top: 22px !important;
+	}
+
+	.ten_wrapp {
+		position: relative;
+		left: -6.5%;
+	    zoom: .9;
+	}
+
 	/*-- /Section 6 --*/
 
 	/*-- Section 7 --*/
 
 	.descript_article_wrapp {
+		margin: 36px 0 0;
 	    padding: 5px;
 	}
 
@@ -945,6 +1033,25 @@
 
 	/*-- Section 6 --*/
 
+	.article_1 {
+	    padding: 11px 0;
+	}
+
+	.obj-1_wrapp {
+	    height: 303px;
+	}
+
+	.article_1_1 .obj_1 .inner {
+		-webkit-transform: scale(.7);
+		-moz-transform: scale(.7);
+		transform: scale(.7);
+	}
+
+	.obj_1 {
+		top: -77px;
+	    left: -77px;
+	}
+
 	.obj-2_wrapp {
 	    height: 210px;
 	}
@@ -958,6 +1065,10 @@
 		-webkit-transform: scale(.7);
 		-moz-transform: scale(.7);
 		transform: scale(.7);
+	}
+
+	.blue-star_wrapp {
+		zoom:.8;
 	}
 
 	/*-- /Section 6 --*/
@@ -978,3 +1089,150 @@
 	
 }
 
+@media only screen and (max-width: 450px) {
+
+	/*-- Section 6 --*/
+
+	.article_1_1 .obj_1 .inner {
+		-webkit-transform: scale(.59);
+		-moz-transform: scale(.59);
+		transform: scale(.59);
+	}
+
+	.obj_1 {
+	    left: -85px;
+	}
+
+	.ten_wrapp {
+		left: -6.5%;
+	    zoom: .7;
+	}
+
+	.ten_wrapp .yellow-pill {
+	    zoom: 1.2;
+	    left: 51%;
+	}
+
+	/*-- /Section 6 --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	h1 {
+	    letter-spacing: 0px;
+	    font-size: 51px;
+	    line-height: 62px;
+	}
+
+	/*-- Section 1 --*/
+
+	.promo-desc .h1-desc {
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Section 3 --*/
+
+	h2 {
+	    font-size: 23px;
+	    line-height: 27px;
+	}
+
+	/*-- /Section 3 --*/
+
+	/*-- Section 6 --*/
+
+	.obj-2_wrapp {
+	    height: 210px;
+	}
+
+	.obj_2 {
+		top: -71px;
+		left: -29%;
+	}
+
+	.obj_2 .inner .strings_wrapp {
+		left: 0;
+		-webkit-transform: scale(.65);
+		-moz-transform: scale(.65);
+		transform: scale(.65);
+	}
+
+	.blue-star_wrapp {
+		zoom: .75;
+		left: -5%;
+	}
+
+	/*-- /Section 6 --*/
+
+}
+
+
+@media only screen and (max-width: 350px) {
+
+	/*-- Section 6 --*/
+
+	.article_1_1 .obj_1 .inner {
+		-webkit-transform: scale(.53);
+		-moz-transform: scale(.53);
+		transform: scale(.53);
+	}
+
+	.obj-1_wrapp {
+	    height: 271px;
+	}
+
+	.obj_1 {
+		top: -97px;
+	    left: -85px;
+	}
+
+	.obj-2_wrapp {
+	    height: 182px;
+	}
+
+	.obj_2 {
+		top: -86px;
+		left: -38%;
+	}
+
+	.obj_2 .inner .strings_wrapp {
+		-webkit-transform: scale(.55);
+		-moz-transform: scale(.55);
+		transform: scale(.55);
+	}
+
+	.ten_wrapp {
+		left: -9%;
+	    zoom: .65;
+	}
+
+	.ten_wrapp .yellow-pill {
+	    zoom: 1.3;
+	}
+
+	/*-- /Section 6 --*/
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+	
+
+}
+
+@media only screen and (min-width: 769px) {
+
+	.wrapper {
+		padding-top: 0 !important;
+	}
+
+	.main-nav_wrapp {
+		display: block !important;
+	}
+
+}
