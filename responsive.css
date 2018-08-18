@@ -663,6 +663,27 @@
 		left: -8%;
 	}
 
+	.animate_txt {
+		animation: none;
+	}
+
+	.circle_el_1,
+	.circle_el_2,
+	.circle_el_3,
+	.stroke_circle {
+		animation: none;
+	}
+
+	.star_2,
+	.blue-star {
+	    animation: none;
+	}
+
+	.ten_cirle_1,
+	.ten_cirle_2 {
+		animation: none;
+	}
+
 	/*-- /Section 6 --*/
 
 	/*-- Section 7 --*/
