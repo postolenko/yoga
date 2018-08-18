@@ -688,6 +688,13 @@
 		animation: none;
 	}
 
+	.title_num {
+	    transition-property: none;
+	    transition-duration: none;
+	    transition-delay: none;
+	    transition-timing-function: none;
+	}
+
 	/*-- /Section 6 --*/
 
 	/*-- Section 7 --*/
