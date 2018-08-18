@@ -24,7 +24,6 @@ var bottomElemCoord;
 
 $(window).load(function() {
 
-	getWrapperOffset();
 	getAnimation();
 	scrollNav();
 
@@ -50,6 +49,8 @@ $(document).scroll(function() {
 $(document).ready(function() {
 
 	$(".svg-text p").text("");
+
+    getWrapperOffset();
 
 	getStr();
 
@@ -149,10 +150,17 @@ $(document).ready(function() {
             'scrollTop': visibleBlock.offset().top - 50
         }, 500);
 
-        // var navigationWrapp = $(this).closest(".naigation");
-        // $(".respmenubtn[data-nav-btn = '"+ navigationWrapp.attr("data-nav") +"']").removeClass("active");
-        // navigationWrapp.fadeOut(300);
+    });
 
+    // ----------------
+
+    $( ".m_c" ).bind({
+      mouseenter: function() {
+        $( this ).closest(".marker").addClass("active");
+      },
+      mouseleave: function() {
+        $( this ).closest(".marker").removeClass("active");
+      }
     });
 
 });
